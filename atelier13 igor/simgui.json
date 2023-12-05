@@ -1,0 +1,29 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Chassis": "DifferentialDrive",
+      "/SmartDashboard/move forward": "Command",
+      "/SmartDashboard/start the labyrinth": "Command",
+      "/SmartDashboard/turn left": "Command",
+      "/SmartDashboard/turn right": "Command"
+    },
+    "windows": {
+      "/SmartDashboard/move forward": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/turn left": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/turn right": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  }
+}
